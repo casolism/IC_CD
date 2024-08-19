@@ -27,7 +27,7 @@ jobs:
         uses: actions/setup-node@v4.0.3
       # Install dependencies
       - name: Install Dependencies
-        run: npm install
+        run: npm i
       # Build App
       - name: Build App
         run: npm run build:prod
